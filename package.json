@@ -2,9 +2,9 @@
   "name": "nexac-api",
   "version": "1.0.0",
   "scripts": {
-    "start": "npx json-server db.json --port $PORT"
+  "start": "json-server db.json --port $PORT"
+},
 
-  },
   "dependencies": {
     "json-server": "^0.17.3"
   }
